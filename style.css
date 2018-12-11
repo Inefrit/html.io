@@ -1,0 +1,101 @@
+/* CSS Document */
+ h1 {
+     text-align: center;
+}
+ h2 {
+     font-size: x-large;
+     text-align: center;
+     text-transform: uppercase;
+}
+ h3 {
+     font-size: large;
+     text-align: left;
+     text-decoration: underline;
+}
+ h4 {
+     font-size: large;
+}
+ body {
+     background: white;
+     font-family: sans-serif;
+     margin: 0 auto;
+}
+ header nav {
+     background: rgb(64, 64, 64);
+     margin: 0 auto;
+     width: 100%;
+}
+ nav a {
+     color: white;
+     display: inline-block;
+     padding: 2rem 3rem;
+     text-decoration: none;
+}
+ nav a:hover,nav a:active {
+     text-decoration: underline;
+}
+ .aktivni {
+     background: white;
+     color: black;
+}
+ main {
+     margin: 0 auto;
+     text-align: justify;
+     width: 70%;
+}
+ .menu {
+     margin: 0 auto;
+     width: 100%;
+}
+ .menu ul {
+     margin: 0 auto;
+     padding: 0;
+     text-align: center;
+     width: 75%;
+}
+ .menu ul li {
+     display: inline;
+     list-style-type: none;
+}
+ ul li {
+     list-style-type: disc;
+}
+ .slovnik li {
+     margin-bottom: 1rem;
+}
+ table, th, td, tr {
+     border: solid black;
+     border-collapse: collapse;
+     font-size: small;
+     padding: 0.3rem;
+     table-layout: auto;
+     text-align: left;
+}
+ figure img {
+     height: auto;
+     max-height: 40%;
+     max-width: 40%;
+     width: auto;
+}
+ figure figcaption {
+     font-size: small;
+     font-style: italic;
+}
+ .zarovnani {
+     display: inline-block;
+}
+ footer {
+     font-size: small;
+     margin-top: 2rem;
+     padding: 1rem;
+     text-align: center;
+}
+ @media (max-width: 600px) {
+     nav ul {
+         display: inline;
+    }
+     nav a {
+         padding: 0.7rem 0.35rem;
+    }
+}
+ 
